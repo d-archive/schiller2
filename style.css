@@ -1,0 +1,67 @@
+* {
+border: dashed blue;
+
+}
+
+body {
+ margin:0;
+ padding:0;
+
+}
+
+section {
+margin-bottom: 30px;
+}
+
+
+section.container .recent-container:hover {
+box-shadow: 0 0 10px 5px #4CAF50;
+}
+
+section.container .recent-container {
+position:relative;
+}
+
+.recent-container { 
+ border-radius:8px; 
+ } 
+
+.recent-details {
+position:absolute;
+top: 20%;
+left: 10%;
+}
+
+.recent-details a {
+ color:white;
+ text-decoration:none;
+}
+
+
+.recent-details .tag { 
+ 	text-transform:uppercase; 
+	padding: 10px 20px; 
+ 	background: #4CAF50; 
+ 	font-size: 100%;  	 
+}
+
+.welcome-image img {
+float:right;
+}
+
+.welcome-section {
+background-image: url("wooden-circle.jpg")
+
+}
+
+
+.welcome-section p a[rel="author"] {
+    text-decoration: none;
+    color: #000000;
+    font-style: italic;
+}
+
+.welcome-section p {
+text-align:justify;
+}
+
