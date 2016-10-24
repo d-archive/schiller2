@@ -45,8 +45,11 @@ float:right;
 }
 
 .welcome-section {
-background-image: url("wooden-circle.jpg")
-
+    height:400px;
+    background: url("wooden-circle.jpg") no-repeat fixed;
+    background-size:cover;
+    background-size: 300px;
+    background-position: 900px 300px;
 }
 
 
@@ -58,5 +61,59 @@ background-image: url("wooden-circle.jpg")
 
 .welcome-section p {
 text-align:justify;
+}
+
+section.statistic {
+    text-align: center;
+}
+
+section.statistic img{
+    height: 200px;
+    width: 200px;
+} 
+
+section.statistic p{
+    font-size: 20px; 
+    font-weight: 600; 
+    margin-top: 20px; 
+    margin-bottom: 5px; 
+}
+
+section.statistic hr{
+    border-color: white;
+    height: 5px;
+    width: 100px;
+    background: #4CAF50;
+}
+
+section.statistic .statistic-block{
+    padding-bottom: 30px;
+}
+
+section.fish-address {
+    padding: 50px 60px;
+}
+
+section.fish-address hr{
+    border:0;
+    height: 5px;
+    width: 300px;
+    background: black;
+}
+
+section.fish-address {
+    background: url("fish2.jpg") no-repeat fixed;
+    background-size:cover;
+}
+
+section.fish-address a{
+    text-decoration: none;
+    color: black;
+}
+
+#map {
+    height:400px;
+    width: 100%;
+    background:yellow;
 }
 
